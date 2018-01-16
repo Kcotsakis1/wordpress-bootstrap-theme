@@ -1,0 +1,172 @@
+/*
+  Theme Name: Clean Cut
+  Author: Kate Cotsakis
+  Author URI: http://katecotsakis.com
+  Description: Simple and elegant wordpress theme
+  Version: 1.0;
+*/
+
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato", "Helvetica Neue", Helvectica, Arial, sans-serif;
+}
+.lead{
+    font-size: 18px;
+    font-weight: 400;
+}
+.showcase {
+    text-align: center;
+    color: white;
+    animation-duration: 2s;
+}
+.showcase h1 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+    color: #fff;
+}
+.showcase p.lead {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 2em;
+    border-bottom: #ccc solid 1px;
+    padding-bottom: 15px;
+}
+.showcase-content {
+    width: 50%;
+    margin:auto;
+    margin-top: 10%;
+}
+.showcase a.btn {
+    margin-right: 10px;
+}
+.section-a {
+    padding: 50px 0px;
+    background-color: #f8f8f8;
+}
+.section-b {
+    padding: 50px 0px;
+    background-color: #e8e8e8;
+    border-bottom: solid 1px #e8e8e8;
+}
+.section-heading {
+    margin-bottom: 10px;
+}
+.banner{
+    padding: 100px 0px;
+    color: #f8f8f8;
+    background-size: cover;
+}
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+.banner-social-button {
+    float: right;
+    margin-top: 10px;
+}
+footer {
+    margin-top: 15px;
+    background: #e8e8e8;
+}
+.title-bar {
+    padding: 15px 0px;
+    border-bottom: 1px solid #ddd;
+}
+.title-bar h1 {
+    padding: 0;
+    margin: 0;
+}
+.sub-nav ul{
+    float: right;
+    list-style: none;
+    padding-top: 10px;
+}
+.sub-nav li{
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-right: 1px solid #e8e8e8;
+}
+.sub-nav li:last-child {
+    border: 0;
+}
+.page { 
+    padding: 20px 0;
+}
+.post-thumbnail img {
+    width: 100%;
+}
+.meta {
+    margin-bottom: 10px;
+    font-weight: bold;
+    border-top: #ccc solid 1px;
+    border-bottom: #ccc solid 1px;
+    padding: 5px;
+}
+.well{
+    background-color: #e7e7e7;
+    border: 1px solid #ccc;
+}
+.boxed-content.left-aligned {
+    text-align: left;
+}
+.boxed-content {
+    text-align: center;
+    margin-bottom: 35px;
+}
+.boxed-content.left-align i{
+    float: left;
+    margin-right: 10px;
+    font-size: 2em;
+}
+.boxed-content.left-boxed-icon i {
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    background: #406da4;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+}
+.boxed-content .boxed-content-title {
+    font-size: 22px;
+    font-weight: 700;
+}
+.boxed-content.left-align .boxed-content-title {
+    margin-bottom: 10px;
+    line-height: 28px;
+    font-weight: normal;
+}
+.boxed-content.left-boxed-icon .boxed-content-title, .boxed-content {
+    padding-left: 80px;
+}
+.banner {
+    background: url('../img/utah.jpg') no-repeat center center;
+}
+
+.nav-tabs .menun-item {
+  margin-bottom: -1px;
+}
+.nav-tabs .nav-link.active,
+.nav-tabs .menu-item.show .nav-link {
+  color: #495057;
+  background-color: #fff;
+  border-color: #ddd #ddd #fff;
+}
+.nav-fill .menu-item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  text-align: center;
+}
+.nav-justified .menu-item {
+  -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  text-align: center;
+}
